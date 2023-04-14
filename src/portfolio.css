@@ -235,6 +235,10 @@ justify-content: center;
    align-items: center;
 
 }
+.pro-img:hover {
+    opacity: 0.5;
+    
+  }
 .project a img{
     height: 300px;
     width: 500px;
