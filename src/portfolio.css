@@ -351,7 +351,7 @@ justify-content: center;
     .jnv-img{
         display: block;
         margin: 10px;
-        margin-right: 10s0px;
+        margin-right: 100px;
         float: left;
        } 
      
@@ -361,9 +361,16 @@ justify-content: center;
    
     .about{
         float: right;
-        margin-top: 100px;
+        margin-top: 80px;
         display: block;
         height: fit-content;
+    }
+    .about-container{
+    
+        margin-top: 80px;
+      flex-wrap: wrap;
+        height: fit-content;
+        display: inline-block;
     }
  
     .project{

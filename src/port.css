@@ -307,3 +307,39 @@ background-color:#f8bce3;
   object-fit: cover;
   border-radius: 50%;
 }
+@media (max-width:1200px){
+  .about{
+    float: right;
+    margin-top: 100px;
+    display: block;
+    height: fit-content;
+}
+.page{
+  float: left;
+  
+  margin-left: 10px;
+  display: block;
+  height: fit-content;
+}
+.name{
+  float: left;
+  
+  margin-left: 10px;
+  display: block;
+  height: fit-content;
+}
+.img1 .img2 .img3{
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  display: block;
+  height: fit-content;
+}
+.i1 .i2 .i3{
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  display: block;
+  height: fit-content;
+}
+}
