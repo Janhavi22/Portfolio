@@ -165,7 +165,9 @@ justify-content: center;
     padding: 5px;
   margin-top: 60px;
 }
-
+.icon:hover{
+    opacity: 0.5;
+}
 
 /* ------------------------about page---------------- */
 
@@ -208,12 +210,18 @@ justify-content: center;
     color: #42002b;
     margin: 10px;
 }
+.email p:hover{
+    color: #ba1ca2;
+}
 .email img{
     width: 30px;
     height: 30px;
     border-radius: 50%;
     object-fit: cover;
     margin: 10px;
+}
+.email img:hover{
+    opacity: 0.5;
 }
 /* -----------------project----------------- */
 .project-container{
