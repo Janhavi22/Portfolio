@@ -363,6 +363,7 @@ justify-content: center;
         float: right;
         margin-top: 80px;
         display: block;
+        margin-left: 50px;
         height: fit-content;
     }
     .about-container{
@@ -375,20 +376,21 @@ justify-content: center;
  
     .project{
          float: left;
-        margin-left: 216px;
+        margin-left: 21px;
         display: block;
         height: fit-content;
     }
     .skills{
         float: left;
-        margin-left: 216px;
+        margin-left: 21px;
          display: block;
          height: fit-content;
      }
      .project1{
         float: left;
-        margin-left: 216px;
+        margin-left: 21px;
          display: block;
-         height:auto;
+         width: 100%;
+         height: fit-content;
      }
 }
