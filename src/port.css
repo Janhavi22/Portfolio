@@ -1,0 +1,304 @@
+*{
+    margin: o;
+    padding: 0;
+
+}
+p{
+    font-size: 40px;
+    font-family: 'Great Vibes', cursive;
+}
+.about{
+  margin-left: 60px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.about ul{
+  display: flex;
+  position: relative;
+  margin: 10px;
+  padding: 5px;
+ list-style: none;
+ margin-left: 1000px;
+ margin-top: 20px;
+}
+
+.about ul li{
+  list-style: none;
+  display: inline-block;
+  margin-left: 40px;
+  font-weight: bold;
+} 
+.about ul li a{
+  text-decoration: none;
+  color: #550030;
+  font-size: 20px;
+}        
+.about ul li a:hover::after{
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #69005b;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+.name{
+
+  height: 200px;
+ background-color: rgb(240, 191, 200);
+  position: relative;
+}
+/* .name p{
+  position: sticky;
+} */
+.page p{
+  font-size: 5rem;
+  color: #550030; 
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+}
+.img1{
+    background: #f8e2c7;
+    height: 600px;
+    padding: 20px;
+    display: flex;
+    margin-top: 50px;
+}
+.img2{
+    background: #f8bce3;
+    margin: 80px;
+    height: 600px;
+    box-shadow: 0 0 50px #f8bce3;
+    
+}
+.img3{
+    background: #fcc5ad;
+    height: 500px;
+}
+/* .img4{
+    background: #f4f0b0;
+    height: 600px;
+    width: 500px;
+    margin: 100px;
+} */
+.i1{
+  
+    background-color: #ff955c;
+    height: 500px;
+    width: 400px;
+    margin: 20px;
+     z-index: 1;
+     position: relative;
+/* animation: bgimg 2s ease-in 1s 1 reverse alternate; */
+    /* animation-name: bgimg;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out; */
+   
+}
+/* @keyframes bgimg {
+    
+  0%{
+    opacity: 0;
+    left: 0px;
+  } 
+  100% {
+    left : 200px;
+  } 
+} */
+.beach{
+    margin: 40px;
+    margin-top: 100px;
+    margin-left: 150px;
+     z-index: 2;
+     position: absolute;
+     box-shadow: 10px 10px 8px #fd8443;
+    /* animation-name: beach;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out; */
+}
+/* @keyframes beach {
+    
+    0%{
+      opacity: 0;
+      left: 0px;
+    } 
+    100% {
+      left : 300px;
+    } 
+  } */
+  .i2{
+  
+    background-color: #f59a9a;
+    height: 500px;
+    width: 400px;
+    
+    margin-top: 500px;
+    margin-left: 500px;
+   
+     z-index: 1;
+     position: relative;
+/* animation: bgimg 2s ease-in 1s 1 reverse alternate; */
+    /* animation-name: bgimg1;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out; */
+   
+ }
+/* @keyframes bgimg1 {
+    
+  0%{
+    opacity: 0;
+    right: 0px;
+  } 
+  100% {
+    right : 300px;
+  } 
+}  */
+.peacock{  
+    margin-top: 600px;
+margin-left: 800px;
+    z-index: 2;
+     position: absolute;
+     box-shadow: 10px 10px 8px #f28b8b;
+     /* animation-name: pea;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;  */
+   
+ }
+/* @keyframes pea {
+    
+  0%{
+    opacity: 0;
+    right: 10px;
+  } 
+  100% {
+    right : 400px;
+  } 
+}  */
+.i3{
+  
+  background-color: #f9ef9e;
+  height: 500px;
+  width: 400px;
+  margin: 30px;
+   z-index: 1;
+   margin-top: 40px;
+   position: absolute;
+/* animation: bgimg 2s ease-in 1s 1 reverse alternate; */
+  /* animation-name: bgimg2;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; */
+ 
+}
+ /* @keyframes bgimg2 {
+  
+0%{
+  opacity: 0;
+  left: 70px;
+} 
+100% {
+  left : 70px;
+ 
+} 
+}  */
+.flower{  
+  /* margin-top: 600px;
+margin-left: 800px; */
+  z-index: 4;
+  margin: 80px;
+   position: absolute;
+   box-shadow: 10px 10px 8px #f9eb82;
+   /* animation-name: flower;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; 
+  */
+}
+/* @keyframes flower {
+  
+  0%{
+    opacity: 0;
+    left: 100px;
+  } 
+  100% {
+    left : 100px;
+   
+  } 
+} */
+.pea{ 
+  height: 300px;
+  width: 400px; 
+display: flex;
+margin-left: 1770px;  
+  z-index: 4;
+  margin: 80px;
+   position: absolute;
+   box-shadow: 10px 10px 8px #a4a5a5;
+   /* animation-name: flower;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; 
+*/ 
+} 
+.deer{ 
+  height: 400px;
+  width: 400px; 
+  margin-top: 600px;
+  display: flex;
+  margin-left: 200px; 
+  z-index: 4;
+  margin: 40px;
+   position: absolute;
+   box-shadow: 10px 10px 8px #f799d6;
+   /* animation-name: flower;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;  */
+ 
+}
+.i5{
+background-color:#f8bce3;
+  height: 420px;
+  width: 500px;
+  margin: 10px;
+   z-index: 1;
+   margin-top: 40px;
+   margin-left: 150px;
+   position: absolute;
+/* animation: bgimg 2s ease-in 1s 1 reverse alternate; */
+  /* animation-name: bgimg2;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out; */
+ 
+}
+ /* @keyframes bgimg2 {
+  
+0%{
+  opacity: 0;
+  left: 70px;
+} 
+100% {
+  left : 70px;
+ 
+} 
+ } */
+ .logo-jcimg{
+  margin: 40px;
+  margin-top: 5px;
+  position: absolute;
+  
+}
+.logo-jcimg img{
+  width: 100px;
+  height: 100px;
+  
+  object-fit: cover;
+  border-radius: 50%;
+}
