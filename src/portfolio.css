@@ -337,7 +337,8 @@ justify-content: center;
      */
     .main{
         float: left;
-        margin-left: 20px;
+        
+        margin-left: 10px;
         display: block;
         height: fit-content;
     }
@@ -350,7 +351,7 @@ justify-content: center;
     .jnv-img{
         display: block;
         margin: 10px;
-        margin-right: 80px;
+        margin-right: 10s0px;
         float: left;
        } 
      
@@ -360,7 +361,7 @@ justify-content: center;
    
     .about{
         float: right;
-        margin-left: 30px;
+        margin-top: 100px;
         display: block;
         height: fit-content;
     }
