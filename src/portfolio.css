@@ -347,13 +347,14 @@ justify-content: center;
    
 }
 @media (max-width:500px){
-    .main .jnv-img{
+    .jnv-img{
         display: block;
         margin: 10px;
-        align-items: center;
-        justify-content: space-aroundS;
+        margin-right: 80px;
+        float: left;
        } 
-      
+     
+     
 }
 @media (max-width:1200px){
    
