@@ -50,6 +50,7 @@
     text-decoration: none;
     font-size: 20px;
     color: #6f0a4c;
+    font-weight: 600;
     /* align-items: center;
     justify-content: center; */
 }
@@ -93,6 +94,17 @@
     margin-left: 40px;
     margin-top: 20px;
  
+}
+.heading{
+position: relative;
+ margin-top: 10px; 
+align-items: center;
+justify-content: center;
+}
+.heading center{
+    font-size: 30px;
+    font-weight: 600;
+    color: #42002b;
 }
 .about ul{
     display: flex;
@@ -311,3 +323,64 @@
         margin-bottom: 20em;
     }
 } */
+@media (max-width:1330px){
+    /* .about-main-container .project-container .main{
+        height: auto;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .right-sidebar .name{
+        height: auto;
+        flex-wrap: wrap;
+        
+    }
+     */
+    .main{
+        float: left;
+        margin-left: 216px;
+        display: block;
+        height: fit-content;
+    }
+    .icon{
+        display: inline-block;
+    }
+   
+}
+@media (max-width:500px){
+    .main .jnv-img{
+        display: block;
+        margin: 10px;
+       } 
+}
+@media (max-width:1200px){
+   
+    .about-container{
+        float: left;
+        margin-left: 216px;
+        display: block;
+        height: fit-content;
+    }
+    .about{
+       
+         display: block;
+         height: fit-content;
+     }
+    .project{
+         float: left;
+        margin-left: 216px;
+        display: block;
+        height: fit-content;
+    }
+    .skills{
+        float: left;
+        margin-left: 216px;
+         display: block;
+         height: fit-content;
+     }
+     .project1{
+        float: left;
+        margin-left: 216px;
+         display: block;
+         height:auto;
+     }
+}

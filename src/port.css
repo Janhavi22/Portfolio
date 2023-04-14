@@ -6,6 +6,7 @@
 p{
     font-size: 40px;
     font-family: 'Great Vibes', cursive;
+    position: sticky;
 }
 .about{
   margin-left: 60px;
@@ -47,11 +48,15 @@ p{
 
   height: 200px;
  background-color: rgb(240, 191, 200);
-  position: relative;
-}
-/* .name p{
+   }
+ .name p{
   position: sticky;
-} */
+  z-index: 10;
+ }
+ .art p{
+  /* margin-top: 10px; */
+  padding-top: 50px;
+ }
 .page p{
   font-size: 5rem;
   color: #550030; 
