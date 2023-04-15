@@ -56,12 +56,14 @@ p{
  .art p{
   /* margin-top: 10px; */
   padding-top: 50px;
+  
  }
 .page p{
   font-size: 5rem;
   color: #550030; 
   position: relative;
   align-items: center;
+ 
   justify-content: space-around;
 }
 .img1{
