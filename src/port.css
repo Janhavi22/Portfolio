@@ -60,6 +60,8 @@ p{
  }
 .page p{
   font-size: 5rem;
+  text-shadow:-2px -2px 6px rgba(59, 5, 5, 0.6);
+
   color: #550030; 
   position: relative;
   align-items: center;
@@ -384,7 +386,8 @@ display: none;
     float:none;
    
   position: relative;
-    margin: 20px;
+    margin: 10px;
+    margin-bottom: 30px;
     display: block;
     height: fit-content;
   }
