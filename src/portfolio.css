@@ -28,7 +28,7 @@
     position: relative;
     margin-bottom: 0;
     font-size: 30px;
-    color: #e1079f;
+    color: #e1046b;
     align-items: center;
     justify-content: center;
 }
@@ -38,7 +38,7 @@
     position: relative;
     
     font-size: 20px;
-    color:#66005c;
+    color:#c60682;
     align-items: center;
     justify-content: center;
      
@@ -50,9 +50,10 @@
     padding: 2px;
     text-decoration: none;
     font-size: 20px;
-    color: #66005c;
+    color: #6e0048;
     font-weight: 600;
-   
+    /* align-items: center;
+    justify-content: center; */
 }
 .name a:hover{
     border-radius: 12%;
@@ -218,7 +219,7 @@ transition: 0.4s;
 .email p{
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #a90478;
+    color: #070009;
     margin: 10px;
 }
 .email p:hover{
