@@ -219,11 +219,12 @@ transition: 0.4s;
 .email p{
     font-size: 20px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: #070009;
+    color: #c90561;
     margin: 10px;
 }
 .email p:hover{
-    color: #ba1ca2;
+    color: #d566ae;
+    
 }
 .email img{
     width: 30px;
