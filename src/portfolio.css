@@ -213,6 +213,7 @@ transition: 0.4s;
 .email{
     display: flex;
     position: relative;
+
     margin-top: 20px;
 }
 
