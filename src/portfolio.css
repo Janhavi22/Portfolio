@@ -133,7 +133,7 @@ justify-content: center;
 .about ul li a{
     text-decoration: none;
     background-image: linear-gradient(to right, rgb(240, 237, 107), rgb(211, 15, 139));
--webkit-background-clip: text;
+/* -webkit-background-clip: text; */
 -webkit-text-fill-color:transparent;
 cursor: pointer;
 transition: 0.4s;
